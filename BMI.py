@@ -20,4 +20,4 @@ else:
     elif 35<= BMI <40:
         print('Béo phì cấp độ II')
     elif BMI >40:
-            print('Béo phì cấp độ Iii')
+            print('Béo phì cấp độ III')
