@@ -1,7 +1,7 @@
 print('BMI')
 chieu_cao=float(input('Nhap chieu cao: '))
 can_nang=float(input('Nhap can nang: '))
-if chieu_cao <0 or can_nang <0:
+if chieu_cao <=0 or can_nang <=0:
     print('chieu cao va can nang phai lon hon 0')
 else:
     BMI= can_nang/(chieu_cao**2)
